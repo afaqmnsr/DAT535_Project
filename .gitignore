@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (large datasets)
+rewdp_dataset/
+weather_dataset/
+
+# Processed data outputs (can be regenerated)
+Part1_Data_Ingestion/raw_data/
+Part2_Data_Cleaning/cleaned_data/
+
+# Gold data - ignore subdirectories with data files, but allow images in root
+Part3_Data_Serving/gold_data/consumption_predictions/
+Part3_Data_Serving/gold_data/daily_consumption_metrics/
+Part3_Data_Serving/gold_data/hourly_patterns/
+Part3_Data_Serving/gold_data/household_clusters/
+Part3_Data_Serving/gold_data/household_summary/
+Part3_Data_Serving/gold_data/monthly_trends/
+Part3_Data_Serving/gold_data/peak_demand_analysis/
+Part3_Data_Serving/gold_data/weather_energy_correlations/
+
+# Spark
+.metastore/
+derby.log
+spark-warehouse/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Parquet files (if regenerated) - but allow images
+*.parquet
+
