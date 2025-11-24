@@ -527,7 +527,6 @@ The implementation demonstrates effective use of Spark's distributed processing 
 
 ## Additional Resources
 
-- Spark UI: http://localhost:4040
 - Apache Spark Documentation: https://spark.apache.org/docs/latest/
 - Medallion Architecture: https://www.databricks.com/glossary/medallion-architecture
 
