@@ -45,6 +45,8 @@ weather_dataset/
 
 # Processed data outputs (can be regenerated)
 Part1_Data_Ingestion/raw_data/
+Part2_Data_Cleaning/silver_data/
+Part2_Data_Cleaning/rejects/
 Part2_Data_Cleaning/cleaned_data/
 
 # Gold data - ignore subdirectories with data files, but allow images in root
